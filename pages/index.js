@@ -26,7 +26,9 @@ const Home = () => {
           {/* subtitle */}
           <p className=" max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
           {/* btn */}
-          
+          <div className="flex justify-center xl:hidden relative">
+            <ProjectsBtn />
+          </div>
         </div>
       </div>
     </div>
